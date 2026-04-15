@@ -190,6 +190,9 @@ footer {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+    .navbar{
+        position: relative;
+    }
   .hero {
     height: 50vh;
   }
