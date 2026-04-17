@@ -17,3 +17,6 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+document.getElementById("menu-toggle").onclick = function() {
+  document.getElementById("nav-links").classList.toggle("active");
+}
