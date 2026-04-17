@@ -20,3 +20,8 @@ window.addEventListener("scroll", () => {
 document.getElementById("menu-toggle").onclick = function() {
   document.getElementById("nav-links").classList.toggle("active");
 }
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("menu-toggle").addEventListener("click", function () {
+    document.getElementById("nav-links").classList.toggle("active");
+  });
+});
